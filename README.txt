@@ -27,3 +27,8 @@ sed -i -e 's/companyname/My Hotspot/g' splash.html
 (Obviously the default script will be demo:demo as username and password)
 
 You can also change the photo that displays as the background by modifying the line that references the jpg file. For example if this is a hotel, just grab their background there in the url.
+
+Unfortunately I could not link directly to my github files as the busybox does not support https, so I resorted using rawgit. Keep this in mind if you decide to use your own image, needs to be served from http.
+
+You can preview the login page here : http://rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/splash.html
+
