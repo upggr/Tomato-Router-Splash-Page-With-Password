@@ -25,4 +25,3 @@ vi /tmp/splashd/splash.html
 nvram commit
 reboot
 +++++++++++++++++++++++++++
-Scroll to line 3491
