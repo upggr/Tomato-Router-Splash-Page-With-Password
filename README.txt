@@ -8,10 +8,10 @@ rm splash.html
 rm style.css
 rm jquery.min.js
 rm bg.jpg
-wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/b9308392a635f39cad0d0b5c6a83b558cdf12cdc/splash.html
-wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/style.css
-wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/jquery.min.js
-wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/bg.jpg
+wget http://rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/splash.html
+wget http://rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/style.css
+wget http://rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/jquery.min.js
+wget http://rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/bg.jpg
 sed -i -e 's/demousername/demo/g' splash.html
 sed -i -e 's/demopassword/demo/g' splash.html
 ++++++++++++++++++++++++++++
