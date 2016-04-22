@@ -32,3 +32,5 @@ Unfortunately I could not link directly to my github files as the busybox does n
 
 You can preview the login page here : http://rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/splash.html
 
+You can download the tomato firmware for Netgear WNR 3500L v2 (and lot more models) from here : https://www.dropbox.com/s/z7h8n07jplac9zj/tomato-Netgear-3500Lv2-K26USB-1.28.RT-N5x--135-AIO.chk?dl=0
+
