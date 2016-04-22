@@ -6,4 +6,5 @@ username is root
 password is admin
 type the following commands:
 rm /tmp/splashd/splash.html
-wget /tmp/splashd/splash.html
+wget https://raw.githubusercontent.com/upggr/Tomato-Router-Splash-Page-With-Password/master/splash.html
+wget https://raw.githubusercontent.com/upggr/Tomato-Router-Splash-Page-With-Password/master/bg.jpg
