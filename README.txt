@@ -1,28 +1,24 @@
 Connect to the tomato router
-Open Putty or any other ssh tool
-Address is the ip of the router (for example 192.168.99.1) 
-Port is 22
 username is root
 password is admin
-type the following commands:
+Under Administration - Scripts - Init, paste the following lines
 ++++++++++++++++++++++++++++
-rm /tmp/splashd/splash.html
-rm /tmp/splashd/style.css
-rm /tmp/splashd/bg.jpg
-cd /tmp/splashd/
+cd /tmp/splashd
+rm splash.html
+rm style.css
+rm jquery.min.js
+rm bg.jpg
 wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/b9308392a635f39cad0d0b5c6a83b558cdf12cdc/splash.html
 wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/style.css
 wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/jquery.min.js
 wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/bg.jpg
-nvram commit
-reboot
+sed -i -e 's/demousername/demo/g' splash.html
+sed -i -e 's/demopassword/demo/g' splash.html
 ++++++++++++++++++++++++++++
 
-You can change username and password in the splash.html file like this :
-+++++++++++++++++++++++++++
-vi /tmp/splashd/splash.html
-:68  - Then modify the username an password (default is 12 and 12)
-:wq
-nvram commit
-reboot
-+++++++++++++++++++++++++++
+You can change username and password if you replace the "demo" value above with the required username and password.
+For example if you want the username to be :User1 and the password to be :Password1 the last 2 lines in the above script should be :
+sed -i -e 's/demousername/User1/g' splash.html
+sed -i -e 's/demopassword/Password1/g' splash.html
+
+(Obviously the default script will be demo:demo as username and password)
