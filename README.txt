@@ -16,6 +16,7 @@ wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/
 sed -i -e 's/demousername/demo/g' splash.html
 sed -i -e 's/demopassword/demo/g' splash.html
 sed -i -e 's/companyname/Your Hotel/g' splash.html
+sed -i -e 's/bg.jpg/bg.jpg/g' splash.html
 ++++++++++++++++++++++++++++
 
 You can change username and password if you replace the "demo" value above with the required username and password.
