@@ -8,6 +8,7 @@ type the following commands:
 ++++++++++++++++++++++++++++
 rm /tmp/splashd/splash.html
 rm /tmp/splashd/style.css
+rm /tmp/splashd/bg.jpg
 cd /tmp/splashd/
 wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/splash.html
 wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/style.css
