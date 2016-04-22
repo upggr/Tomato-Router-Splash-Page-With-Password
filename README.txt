@@ -25,3 +25,5 @@ sed -i -e 's/demopassword/Password1/g' splash.html
 sed -i -e 's/companyname/My Hotspot/g' splash.html
 
 (Obviously the default script will be demo:demo as username and password)
+
+You can also change the photo that displays as the background by modifying the line that references the jpg file. For example if this is a hotel, just grab their background there in the url.
