@@ -10,7 +10,7 @@ rm /tmp/splashd/splash.html
 rm /tmp/splashd/style.css
 rm /tmp/splashd/bg.jpg
 cd /tmp/splashd/
-wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/4e06b8d56437bb38a62f7dfc5396c845f56c73e8/splash.html
+wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/b9308392a635f39cad0d0b5c6a83b558cdf12cdc/splash.html
 wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/style.css
 wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/jquery.min.js
 wget http://cdn.rawgit.com/upggr/Tomato-Router-Splash-Page-With-Password/master/bg.jpg
